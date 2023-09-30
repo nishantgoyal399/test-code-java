@@ -55,16 +55,16 @@ public class FormatSpecifiersDemo {
         System.out.printf("'%-10s'%n", myString);       			    // Adds 10 spaces after Kapil
         System.out.printf("'%10s'%n", myString);        		    	// Adds 10 spaces before Kapil
         // Re-ordering the output using format specifier
-        System.out.printf("%n%s, %s, %s%n", "ME", "MY", "WE");		    // Prints I, U, C
-        System.out.printf("%3$s, %1$s, %2$s%n", "ME", "MY", "WE");	    // Prints C, I, U
+        System.out.printf("%n%s, %s, %s%n", "ME", "MY", "WE");		    // Prints ME, MY, WE
+        System.out.printf("%3$s, %1$s, %2$s%n", "ME", "MY", "WE");	    // Prints WE, ME, MY
     }
 	
 	private static void booleanDemo() {
-        System.out.printf("%n%b%n", true);            				    // Prints true
-        System.out.printf("%B%n", true);            				    // Prints TRUE
-        System.out.printf("%b%n", "random text");   				    // Prints true
-        System.out.printf("%b%n", false);           				    // Prints false
-        System.out.printf("%b%n", (Object) null);   				    // Prints false
+        System.out.printf("%n%b%n", true);                              // Prints true
+        System.out.printf("%B%n", true);                                // Prints TRUE
+        System.out.printf("%b%n", "random text");                       // Prints true
+        System.out.printf("%b%n", false);                               // Prints false
+        System.out.printf("%b%n", (Object) null);                       // Prints false
     }
 
 }
