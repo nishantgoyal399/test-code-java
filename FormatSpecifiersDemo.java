@@ -23,48 +23,48 @@ public class FormatSpecifiersDemo {
 
     private static void intDemo() {
         int number = 14;
-        System.out.printf("%n%d%n", number);              			// Int number
-        System.out.printf("%03d%n", number);            			// Prints 3 digit int number
-        System.out.printf("%o%n", number);              			// Octal value of number
-        System.out.printf("%x%n", number);              			// Hexadecimal value of number
-        System.out.printf("%X%n", number);              			// Hexadecimal value of number (UPPERCASE)
-        System.out.printf("%10d Hey%n", number);        			// Adds 10 spaces before the number
-        System.out.printf("%-10d Hello%n", number);     			// Adds 10 spaces after the number
+        System.out.printf("%n%d%n", number);
+        System.out.printf("%03d%n", number);
+        System.out.printf("%o%n", number);
+        System.out.printf("%x%n", number);
+        System.out.printf("%X%n", number);
+        System.out.printf("%10d Hey%n", number);
+        System.out.printf("%-10d Hello%n", number);
     }
 
     private static void floatingPointDemo() {
         double number = 17.267396;
-        System.out.printf("%n%f%n", number);            			// Float/Double number
-        System.out.printf("%.2f%n", number);            			// Number up to 2 decimal places
-        System.out.printf("%.4f%n", number);            			// Number up to 4 decimal places
-        System.out.printf("%e%n", number);              			// Exponential form
-        System.out.printf("%E%n", number);              			// Exponential form
+        System.out.printf("%n%f%n", number);
+        System.out.printf("%.2f%n", number);
+        System.out.printf("%.4f%n", number);
+        System.out.printf("%e%n", number);
+        System.out.printf("%E%n", number);
     }
 
     private static void charDemo() {
         char myChar = 'a';
-        System.out.printf("%n%c%n", myChar);            			// Prints a
-        System.out.printf("%C%n", myChar);              			// Prints A
+        System.out.printf("%n%c%n", myChar);
+        System.out.printf("%C%n", myChar);
     }
 
     private static void stringDemo() {
         String myString = "Kapil";
-        System.out.printf("%n%s%n", myString);          			// Prints Kapil
-        System.out.printf("%S%n", myString);            			// Prints KAPIL
-        System.out.printf("%.2s%n", myString);          			// Prints Ka
-        System.out.printf("'%-10s'%n", myString);       			// Adds 10 spaces after Kapil
-        System.out.printf("'%10s'%n", myString);        			// Adds 10 spaces before Kapil
+        System.out.printf("%n%s%n", myString);
+        System.out.printf("%S%n", myString);
+        System.out.printf("%.2s%n", myString);
+        System.out.printf("'%-10s'%n", myString);
+        System.out.printf("'%10s'%n", myString);
         // Re-ordering the output using format specifier
-        System.out.printf("%n%s, %s, %s%n", "I", "U", "C");		    // Prints I, U, C
-        System.out.printf("%3$s, %1$s, %2$s%n", "I", "U", "C");	    // Prints C, I, U
+        System.out.printf("%n%s, %s, %s%n", "I", "U", "C");
+        System.out.printf("%3$s, %1$s, %2$s%n", "I", "U", "C");
     }
-	
-	private static void booleanDemo() {
-        System.out.printf("%n%b%n", true);            				// Prints true
-        System.out.printf("%B%n", true);            				// Prints TRUE
-        System.out.printf("%b%n", "random text");   				// Prints true
-        System.out.printf("%b%n", false);           				// Prints false
-        System.out.printf("%b%n", (Object) null);   				// Prints false
+
+    private static void booleanDemo() {
+        System.out.printf("%n%b%n", true);
+        System.out.printf("%B%n", true);
+        System.out.printf("%b%n", "random text");
+        System.out.printf("%b%n", false);
+        System.out.printf("%b%n", (Object) null);
     }
 
 }
