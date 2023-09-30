@@ -55,8 +55,8 @@ public class FormatSpecifiersDemo {
         System.out.printf("'%-10s'%n", myString);       			// Adds 10 spaces after Kapil
         System.out.printf("'%10s'%n", myString);        			// Adds 10 spaces before Kapil
         // Re-ordering the output using format specifier
-        System.out.format("%n%s, %s, %s%n", "I", "U", "C");		    // Prints I, U, C
-        System.out.printf("%3$s, %1$s, %2$s%n", "I", "U", "C");	    // Prints C, I, U
+        System.out.format("%n%s, %s, %s%n", "I", "U", "C");			// Prints I, U, C
+        System.out.printf("%3$s, %1$s, %2$s%n", "I", "U", "C");			// Prints C, I, U
     }
 	
 	private static void booleanDemo() {
