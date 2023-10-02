@@ -1,6 +1,6 @@
 <h1>Java-Masterclass-Exercises</h1>
 
-This repository contains the solutions to the coding exercises given in the Udemy course - <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/">Java Programming Masterclass by Tim Buchalka</a>.
+This repository contains the solutions to the coding exercises given in the Udemy course - <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/" target="_blank">Java Programming Masterclass by Tim Buchalka</a>.
 
 <h3>Versions Used</h3>
 
