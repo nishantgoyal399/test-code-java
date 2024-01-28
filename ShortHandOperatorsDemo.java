@@ -1,4 +1,4 @@
-package com.kapil.java.operators;
+package com.kapil.learningjava.operators;
 
 /**
  * Program to understand Short Hand operators.
