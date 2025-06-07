@@ -2,7 +2,9 @@
 
 **QuantLeaf** is a modern stock screener and analysis platform for Indian and US markets, designed to help investors from beginner to expert.
 
-## 🚀 Built with:
+---
+
+## ⚙️ Tech Stack
 - **Angular** for frontend
 - **Java + Spring Boot** for backend (microservices)
 - **GitHub Actions** for CI/CD
