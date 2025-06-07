@@ -14,7 +14,7 @@
 
 ## 📌 Status
 
-> 🚧 Project is in early development. Initial UI and microservice setup in progress.
+- 🚧 Project is in early development. Initial UI and microservice setup in progress.
 
 ---
 
