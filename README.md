@@ -70,8 +70,8 @@ javadoc -d "docs" src\com\kapil\javadocdemo\JavadocDemo.java
 
 ---
 
-<div style="width: 100%;">
+<div style="width: 100%;" style="float: left;">
   <a href="#">
-    <img src="https://img.shields.io/badge/Javadoc-Demo-blue.svg" alt="Javadoc Demo" style="float: left;">
+    <img src="https://img.shields.io/badge/Javadoc-Demo-blue.svg" alt="Javadoc Demo">
   </a>
 </div>
