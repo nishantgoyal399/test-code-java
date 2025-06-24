@@ -1,7 +1,10 @@
-<h1>Javadoc-Demo</h1>
+# Javadoc-Demo
+
+[![Javadoc Demo](https://img.shields.io/badge/Javadoc-Demo-blue.svg)](#)
+
 This repository demonstrates how to generate HTML pages of API documentation from Java source files using the Javadoc tool.
 
-<h3>Java Versions Used</h3>
+### Java Versions Used
 
 - Java 7
 - Java 8
@@ -9,11 +12,11 @@ This repository demonstrates how to generate HTML pages of API documentation fro
 - Java 17
 - Java 21
 
-<h3>Topics Covered</h3>
+### Topics Covered
 
-- Javadoc: Learn how to use the Javadoc tool to generate detailed HTML documentation from Java source files.
+- **Javadoc:** Learn how to use the Javadoc tool to generate detailed HTML documentation from Java source files.
 
-<h3>Command to Generate Documentation via Javadoc Tool</h3>
+### Command to Generate Documentation via Javadoc Tool
 
 - To generate documentation in the same folder as the source file:
 
@@ -33,13 +36,13 @@ javadoc -d "Output Folder Path" SourceFileName.java
 javadoc -d "docs" src\com\kapil\javadocdemo\JavadocDemo.java
 ```
 
-<h3>How to View the Documentation?</h3>
+### How to View the Documentation?
 
 - The generated documentation files are located in the folder: <strong>docs/</strong>
 
 - Open <strong>docs/index.html</strong> in any web browser to view the documentation.
 
-<h3>Notes:</h3>
+### Notes:
 
 - Ensure the Javadoc tool is installed and accessible via your system's PATH.
 
