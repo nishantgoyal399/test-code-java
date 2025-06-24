@@ -58,6 +58,12 @@ javadoc -d "docs" src\com\kapil\javadocdemo\JavadocDemo.java
 
 ---
 
+## Further Reading 🔗
+
+- [Oracle’s Official Javadoc Guide](https://docs.oracle.com/en/java/javase/17/docs/specs/javadoc/doc-comment-spec.html)
+
+---
+
 ## License 📄
 
 **MIT License** — free to use and modify.
