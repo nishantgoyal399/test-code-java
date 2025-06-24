@@ -70,3 +70,14 @@ javadoc -d "docs" src\com\kapil\javadocdemo\JavadocDemo.java
 **MIT License** — free to use and modify.
 
 ---
+
+<table width="100%">
+  <tr>
+    <td></td>
+    <td align="right">
+      <a href="#">
+        <img src="https://img.shields.io/badge/Javadoc-Demo-blue.svg" alt="Javadoc Demo">
+      </a>
+    </td>
+  </tr>
+</table>
