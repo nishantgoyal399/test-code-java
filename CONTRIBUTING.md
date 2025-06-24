@@ -1,0 +1,3 @@
+- Please open an issue or discussion before submitting a pull request.
+- All contributions will be reviewed.
+- Direct pushes to main branch are disabled.
