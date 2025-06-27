@@ -2,6 +2,7 @@
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ---
 
 ## 📝 Overview
@@ -27,7 +28,7 @@ This project automates the hotel booking functionality on the [Adactin](https://
 
 ## 🛠 Technologies Used
 
-| Component             | Technology         |
+| Component            | Technology         |
 |----------------------|--------------------|
 | Programming Language | Java               |
 | Build Tool           | Maven              |
