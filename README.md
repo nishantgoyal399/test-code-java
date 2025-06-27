@@ -1,10 +1,12 @@
 # Adactin Hotel Booking Automation Project
-
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Maven](https://img.shields.io/badge/Maven-Build-Success-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ---
 
 ## 📝 Overview
 
-This project automates the hotel booking functionality on the [Adactin](http://adactinhotelapp.com/) platform using **Selenium WebDriver**, **TestNG**, and **Java**. It includes comprehensive test cases covering:
+This project automates the hotel booking functionality on the [Adactin](https://adactinhotelapp.com/HotelAppBuild2/) platform using **Selenium WebDriver**, **TestNG**, and **Java**. It includes comprehensive test cases covering:
 
 - Login
 - Registration
@@ -64,7 +66,7 @@ AdactinHotelAutomation/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/adactin-automation.git
+   git clone https://github.com/mansigarg10/adactin-hotel-services
    ```
 
 2. Open the project in IntelliJ IDEA.
@@ -107,7 +109,7 @@ Test data is maintained as JSON files:
 Test execution reports are generated using **Extent Reports** and saved at:
 
 ```
-extentReports/index.html
+/test-output/extentReports/index.html
 ```
 
 Make sure the screenshot paths in the reports are valid and accessible.
@@ -142,6 +144,14 @@ Make sure the screenshot paths in the reports are valid and accessible.
 
 - Ensure that the JSON test data files are properly formatted to avoid deserialization errors.
 - Screenshot paths used in **Extent Reports** must be accessible to render properly.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.  
+For major changes, please open an issue first to discuss what you'd like to change.
+
+> You can also suggest enhancements for tests, reporting, or refactoring strategies.
 
 ---
 
