@@ -1,72 +1,158 @@
-# Javadoc-Demo 🚀
-[![Javadoc Demo](https://img.shields.io/badge/Javadoc-Demo-blue.svg)](#)
-
-This repository demonstrates how to generate HTML pages of API documentation from Java source files using the Javadoc tool.
+# Adactin Hotel Booking Automation Project
 
 ---
 
-## Java Versions Used ☕️
+## 📝 Overview
 
-- Java 7
-- Java 8
-- Java 11
-- Java 17
-- Java 21
+This project automates the hotel booking functionality on the [Adactin](http://adactinhotelapp.com/) platform using **Selenium WebDriver**, **TestNG**, and **Java**. It includes comprehensive test cases covering:
 
----
-
-## Topics Covered 📚
-
-- **Javadoc:** Learn how to use the Javadoc tool to generate detailed HTML documentation from Java source files.
+- Login
+- Registration
+- Room booking
+- Email verification
 
 ---
 
-## Command to Generate Documentation via Javadoc Tool 🛠️
+## ✨ Features
 
-- To generate documentation in the same folder as the source file:
+- **Login Automation**: Validates user login functionality.
+- **Registration Automation**: Automates the registration process and email verification.
+- **Room Booking Automation**: Tests the hotel search, selection, and booking process.
+- **Extent Reports Integration**: Generates detailed test execution reports.
+- **Data-Driven Testing**: Uses JSON files for managing test data.
 
-```console
-javadoc SourceFileName.java
+---
+
+## 🛠 Technologies Used
+
+| Component             | Technology         |
+|----------------------|--------------------|
+| Programming Language | Java               |
+| Build Tool           | Maven              |
+| Testing Framework    | TestNG             |
+| Web Automation       | Selenium WebDriver |
+| Reporting Tool       | Extent Reports     |
+| JSON Parsing         | Jackson Library    |
+
+---
+
+## 📁 Project Structure
+
+```
+AdactinHotelAutomation/
+├── src/
+│   ├── main/
+│   │   ├── java/                # Page objects, utilities, constants
+│   │   └── resources/           # Test data in JSON format
+│   └── test/
+│       ├── java/                # Test classes, TestNG listeners
+│       └── resources/           # TestNG XML configuration
 ```
 
-- To generate documentation in a different folder:
+---
 
-```console
-javadoc -d "Output Folder Path" SourceFileName.java
+## ✅ Prerequisites
+
+- **Java**: JDK 17 or higher
+- **Maven**: Installed and configured
+- **Browser**: Microsoft Edge (used by default)
+- **IDE**: IntelliJ IDEA (recommended)
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/adactin-automation.git
+   ```
+
+2. Open the project in IntelliJ IDEA.
+
+3. Use Maven to install dependencies:
+   ```bash
+   mvn clean install
+   ```
+
+4. Update JSON files in `src/main/resources/` with valid test data.
+
+---
+
+## 🚀 Running Tests
+
+- To run all tests via Maven:
+  ```bash
+  mvn test
+  ```
+
+- To run specific tests:
+  Use corresponding **TestNG XML** files located in `src/test/resources/`.
+
+---
+
+## 🧪 Test Data
+
+Test data is maintained as JSON files:
+
+| File Name              | Purpose                |
+|------------------------|------------------------|
+| `LoginDetails.json`    | Login credentials      |
+| `BookingDetails.json`  | Hotel booking details  |
+| `RegisterDetails.json` | User registration info |
+
+---
+
+## 📊 Reporting
+
+Test execution reports are generated using **Extent Reports** and saved at:
+
+```
+extentReports/index.html
 ```
 
-- For example, in this project, after navigating to the project root, the following command was executed:
-
-```console
-javadoc -d "docs" src\com\kapil\javadocdemo\JavadocDemo.java
-```
+Make sure the screenshot paths in the reports are valid and accessible.
 
 ---
 
-## How to View the Documentation? 🌐
+## 📌 Key Classes
 
-- The generated documentation files are located in the folder: <strong>docs/</strong>
+### 🖥 Pages
 
-- Open <strong>docs/index.html</strong> in any web browser to view the documentation.
+- `LoginPage` – Handles login functionality
+- `SearchHotelPage` – Automates hotel search
+- `SelectHotelPage` – Automates hotel selection
+- `BookHotelPage` – Automates booking details
+- `BookingConfirmationPage` – Validates booking confirmation
+- `RegisterPage` – Handles user registration
+- `EmailVerificationPage` – Validates email verification
+
+### 🧪 Tests
+
+- `RoomBookingTest` – Validates the end-to-end room booking flow
+- `RegisterTest` – Validates user registration functionality
+
+### 🛠 Utilities
+
+- `AdactinConstants` – Contains constant values used across the framework
+- `BaseTest` – Handles common setup/teardown methods
 
 ---
 
-## Notes 📝
+## ⚠️ Known Issues
 
-- Ensure the Javadoc tool is installed and accessible via your system's PATH.
-
-- Replace <strong>SourceFileName.java</strong> with the actual Java source file you want to document.
-
----
-
-## Further Reading 🔗
-
-- [Oracle’s Official Javadoc Guide](https://docs.oracle.com/en/java/javase/17/docs/specs/javadoc/doc-comment-spec.html)
+- Ensure that the JSON test data files are properly formatted to avoid deserialization errors.
+- Screenshot paths used in **Extent Reports** must be accessible to render properly.
 
 ---
 
-## License 📄
+## 📄 License
 
-**MIT License** — free to use and modify.
+This project is licensed under the **MIT License**.
+
+---
+
+## 👩‍💻 Author
+
+**Mansi Garg**
 
 ---
