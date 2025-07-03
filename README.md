@@ -1,5 +1,6 @@
 # Javadoc-Demo 🚀
-[![Javadoc Demo](https://img.shields.io/badge/Javadoc-Demo-blue.svg)](#)
+![Javadoc Demo](https://img.shields.io/badge/Javadoc-Demo-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This repository demonstrates how to generate HTML pages of API documentation from Java source files using the Javadoc tool.
 
